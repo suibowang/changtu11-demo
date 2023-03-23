@@ -31,7 +31,7 @@ app.stage.addChild(container);
 //创建一个纹理
 const texture:Texture = Texture.from('./imgs/balloon.png');
 const sprite:Sprite = new Sprite(texture);
-const bg:Sprite = Sprite.from('./images/bg.png');
+const bg:Sprite = Sprite.from('./images/bg.jpg');
 container.addChild(bg)
 sprite.x =0;
 sprite.y =0;
