@@ -3,8 +3,28 @@ import { Application, Sprite, Texture, Container } from 'pixi.js'
 const Spritedata:any = [
     {
         position: { x: 0, y: 0 },
-        url: './images/bg.jpg',
-        name:'bg',
+        url: './images/bg1.jpg',
+        name:'bg1',
+    },
+    {
+        position: { x: 1700, y: 0 },
+        url: './images/bg2.jpg',
+        name:'bg2',
+    },
+    {
+        position: { x: 3400, y: 0 },
+        url: './images/bg3.jpg',
+        name:'bg3',
+    },
+    {
+        position: { x: 5100, y: 0 },
+        url: './images/bg4.jpg',
+        name:'bg4',
+    },
+    {
+        position: { x: 6800, y: 0 },
+        url: './images/bg5.jpg',
+        name:'bg5',
     },
     {
         position: { x: 584, y: 31 },
