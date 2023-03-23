@@ -5,7 +5,7 @@
 import { reactive, onMounted } from 'vue';
 import *as PIXI from 'pixi.js';
 import { Application, Sprite, Texture, Container } from 'pixi.js'
-import { initSprite } from './untils/screen'
+import { initSprite } from './untils/screen.js'
 //创建一个画布
 
 
