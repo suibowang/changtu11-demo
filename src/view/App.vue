@@ -16,7 +16,6 @@ onMounted(() => {
     height: h,
     backgroundColor: 0x1099bb,
   });
-  const scale =w/750 
   document.body.appendChild(app.view);
   //创建一个容器
   const container: any = new Container();
